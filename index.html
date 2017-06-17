@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Home Run Derby Hits</title>
+
+  <!-- Latest Bootstrap compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link href="css/homeruns.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                  <li>
+                      <a href="#">About</a>
+                  </li>
+                  <li>
+                      <a href="#">Services</a>
+                  </li>
+                  <li>
+                      <a href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <div class="row">
+          <div class="col-lg-12">
+            <img src="img/hr-derby-logo.png">
+            <br>
+            <h1 class="page-header">Albert Pujols
+                <small>Los Angeles Angels</small>
+            </h1>
+          </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+          <div class="col-md-8">
+            <div class="panel">
+              <div id="field"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="img/albert-pujols.png" class="img-responsive center-block">
+              </div>
+              <div class="panel-footer panel-red">
+                <table id="total" class="table table-condensed">
+                  <thead>
+                    <tr>
+                      <th>Round 1</th>
+                      <th>Round 2</th>
+                      <th>Round 3</th>
+                      <th>Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span id="round1" class="huge">15</span></td>
+                      <td><span id="round2" class="huge">9</span></td>
+                      <td><span id="round3" class="huge">10</span></td>
+                      <td><span id="total" class="huge">34</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Distance Chart Row -->
+      <div class="row">
+          <div class="col-lg-12">
+            <h3>Farthest Home Runs</h3>
+            <svg class="chart"></svg>
+          </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Footer -->
+      <footer>
+          <div class="row">
+              <div class="col-lg-12">
+                <p>Copyright &copy; Your Website 2014</p>
+              </div>
+          </div>
+          <!-- /.row -->
+      </footer>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/homeruns.js"></script>
+</body>
+</html>

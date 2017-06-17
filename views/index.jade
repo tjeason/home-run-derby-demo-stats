@@ -1,0 +1,186 @@
+doctype html
+html
+  include ./includes/header.jade
+  body
+    include ./includes/navbar.jade
+    
+    // Page Content
+    .container
+      section#highlights.highlights-section
+      .row
+        .col-lg-12
+          img(src='img/hr-derby-logo.png')
+          br
+          h1.page-header
+            | Todd Frazier
+            small  National League / Cincinnati Reds
+      // /.row
+    
+      .row
+        .col-md-8
+          .panel
+            #field
+        .col-md-4
+          .panel.panel-default
+            .panel-heading
+              .panel-title 2015 Home Run Derby Champion
+            .panel-body
+              img.img-responsive.center-block(src='img/todd-frazier.png')
+            .panel-footer.panel-red
+              table#total.table.table-condensed
+                thead
+                  tr
+                    th Round 1
+                    th Round 2
+                    th Round 3
+                    th Total
+                tbody
+                  tr
+                    td
+                      span#round1.huge 14
+                    td
+                      span#round2.huge 10
+                    td
+                      span#round3.huge 15
+                    td
+                      span#total.huge 39
+      // /.row
+      // Distance Chart Row
+      .row
+        .col-lg-8
+          h3 Farthest Home Runs
+          svg.chart
+        .col-lg-4
+          img(width='360', src='http://a.espncdn.com/i/mlb/homerunderby2015/heatmap-30004.png')
+      // /.row
+      
+      // Home Run Derby Round 3 Stats Row
+      section#results.results-section
+      .row
+        br
+        h3 Home Run Derby Stats
+        hr
+        .col-lg-8
+          // Home Run Derby Round 3 Stats
+          .panel.panel-default
+            .panel-heading Round 3
+            .table-responsive.panel
+              table#round3.table.table-bordered.table-hover.table-striped.player-stats
+                thead
+                  tr
+                    th Player
+                    th HR
+                    th LONG
+                    th AVG
+                tbody
+          
+          br
+          
+          // Home Run Derby Round 2 Stats 
+          .panel.panel-default
+            .panel-heading Round 2
+            .table-responsive.panel
+              table#round2.table.table-bordered.table-hover.table-striped.player-stats
+                thead
+                  tr
+                    th Player
+                    th HR
+                    th LONG
+                    th AVG
+                tbody
+          
+          br
+          
+          // Home Run Derby Round 1 Stats
+          .panel.panel-default
+            .panel-heading Round 1
+            .table-responsive.panel
+              table#round1.table.table-bordered.table-hover.table-striped.player-stats
+                thead
+                  tr
+                    th Player
+                    th HR
+                    th LONG
+                    th AVG
+                tbody
+                
+        .col-lg-4
+          .panel.panel-default
+            .panel-heading All Rounds 
+            .table-responsive.panel
+              table#allRounds.table
+                thead
+                  tr
+                    th Total 
+                    th Distance
+                tbody
+      // /.row
+      
+      // Social Network Row 1
+      section#social.social-section
+      .row
+        h3 Social Wall
+        hr
+        .col-lg-6
+          blockquote.twitter-tweet(lang='en')
+            p(lang='en', dir='ltr')
+              | The hometown kid wins it! Todd Frazier uses bonus time to beat Joc Pederson, 15-14, and win the 2015 Home Run Derby. 
+              a(href='http://t.co/iDiWdI4hXv') pic.twitter.com/iDiWdI4hXv
+            | — SportsCenter (@SportsCenter) 
+            a(href='https://twitter.com/SportsCenter/status/620783351377580032') July 14, 2015
+          script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+          
+          br
+        
+          blockquote.twitter-tweet(lang='en')
+            p(lang='en', dir='ltr')
+              | 469 feet, 468 feet, and the leader of the clubhouse ... 487!! 
+              a(href='https://twitter.com/Gillette') @Gillette
+              a(href='https://twitter.com/hashtag/MaxContact?src=hash') #MaxContact
+              a(href='http://t.co/57CH331iCT') pic.twitter.com/57CH331iCT
+            | — MLB (@MLB) 
+            a(href='https://twitter.com/MLB/status/620772765142941696') July 14, 2015
+          script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+          
+        .col-lg-6
+          br
+          br
+          br
+          br
+          blockquote.twitter-tweet(lang='en')
+            p(lang='en', dir='ltr')
+              | FAMILY AFFAIR: 
+              a(href='https://twitter.com/FlavaFraz21') @FlavaFraz21
+              |  poses with the hardware alongside 
+              a(href='https://twitter.com/hashtag/HRDerby?src=hash') #HRDerby
+              |  pitcher - and brother - Charlie 
+              a(href='https://twitter.com/hashtag/FSOAllStar?src=hash') #FSOAllStar
+              a(href='http://t.co/U3Jt2k6q4D') pic.twitter.com/U3Jt2k6q4D
+            | — FOX Sports Ohio (@FOXSportsOH) 
+            a(href='https://twitter.com/FOXSportsOH/status/620791198177955840') July 14, 2015
+            script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+            
+          br
+          
+          blockquote.twitter-tweet(lang='en')
+            p(lang='en', dir='ltr') So the new rules at the HR Derby seem to have worked.
+            | — Dan Shulman (@DShulman_ESPN) 
+            a(href='https://twitter.com/DShulman_ESPN/status/620783342267564033') July 14, 2015
+          script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+
+      // /.row
+
+      include ./includes/footer.jade
+    // /.container
+    
+    // Latest compiled and minified JavaScript
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js')
+    
+    // SPA Scrolling Navigation
+    script(src='js/jquery.easing.min.js')
+    script(src='js/scrolling-nav.js')
+    
+    // Custom JS
+    script(src='js/homeruns.min.js')

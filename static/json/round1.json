@@ -1,0 +1,13 @@
+{
+  "round":
+  [
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30782.png&w=80&scale=crop&transparent=true","name":"(6) Anthony Rizzo","HR":8,"long":"--","avg":"--"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31392.png&w=80&scale=crop&transparent=true","name":"(4) Joc Peterson","HR":13,"long":"487","avg":"426"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4574.png&w=80&scale=crop&transparent=true","name":"(1) Albert Pujols","HR":10,"long":"446","avg":"422"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30004.png&w=80&scale=crop&transparent=true","name":"(2) Todd Frazier","HR":14,"long":"455","avg":"422"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/29563.png&w=80&scale=crop&transparent=true","name":"(3) Josh Donaldson","HR":9,"long":"465","avg":"411"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5915.png&w=80&scale=crop&transparent=true","name":"(7) Prince Fielder","HR":13,"long":"473","avg":"432"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31097.png&w=80&scale=crop&transparent=true","name":"(5) Manny Machado","HR":12,"long":"469","avg":"431"},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33172.png&w=80&scale=crop&transparent=true","name":"(8) Kris Bryant","HR":9,"long":"462","avg":"427"}
+  ]
+}

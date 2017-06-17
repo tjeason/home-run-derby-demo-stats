@@ -1,0 +1,9 @@
+{
+  "round":
+  [
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31392.png&w=80&scale=crop&transparent=true","name":"(4) Joc Peterson","HR":12,"long":448,"avg":430},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4574.png&w=80&scale=crop&transparent=true","name":"(1) Albert Pujols","HR":11,"long":443,"avg":434},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30004.png&w=80&scale=crop&transparent=true","name":"(2) Todd Frazier","HR":10,"long":440,"avg":417},
+    {"img":"http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/29563.png&w=80&scale=crop&transparent=true","name":"(3) Josh Donaldson","HR":9,"long":450,"avg":419}
+  ]
+}
